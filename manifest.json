@@ -1,6 +1,6 @@
 {
   "name": "Vodeclic FastPass",
-  "version": "0.0.1",
+  "version": "0.1",
   "manifest_version": 2,
   "description": "Speed up your formation easily",
   "homepage_url": "https://github.com/vodkhard",
@@ -9,7 +9,6 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "background": {
     "scripts": [
       "src/bg/background.js"
