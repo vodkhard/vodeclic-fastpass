@@ -1,0 +1,6 @@
+section.options {
+    padding: 3rem 1.5rem;
+}
+section.options > div:not(:last-child) {
+    margin-bottom: 20px;
+}
