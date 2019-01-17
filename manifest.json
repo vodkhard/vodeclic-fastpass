@@ -23,11 +23,14 @@
   "content_scripts": [
     {
       "matches": [
-        "https://lms.vodeclic.com/*"
+        "https://*.vodeclic.com/*"
       ],
       "js": [
         "src/inject/inject.js"
       ]
     }
+  ],
+  "web_accessible_resources": [
+    "src/inject/long.js"
   ]
 }
